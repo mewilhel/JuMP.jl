@@ -694,7 +694,7 @@ end
 """
     @Constraint(constraint_expr)
 
-Constraints a `JuMP.ScalarConstraint` or `JuMP.VectorConstraint` using the same
+Constructs a `JuMP.ScalarConstraint` or `JuMP.VectorConstraint` using the same
 machinery as [`@constraint`](@ref) but without adding the constraint to a model.
 
 Constraints using broadcast operators like `x .<= 1` are also supported and will
